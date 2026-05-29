@@ -117,17 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="player_sheet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\player_sheet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lucid-origin_chunky_pixel_art_16-bit_RPG_style_large_visible_pixels_retro_game_background_dar-0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lucid-origin_chunky_pixel_art_16-bit_RPG_style_large_visible_pixels_retro_game_background_dar-0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lucid-origin_chunky_pixel_art_16-bit_RPG_style_large_visible_pixels_retro_game_background_dar-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lucid-origin_chunky_pixel_art_16-bit_RPG_style_large_visible_pixels_retro_game_background_dar-0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lucid-origin_chunky_pixel_art_16-bit_RPG_style_large_visible_pixels_retro_game_background_dar-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lucid-origin_chunky_pixel_art_16-bit_RPG_style_large_visible_pixels_retro_game_background_dar-01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

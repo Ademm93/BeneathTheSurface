@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -62,11 +62,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SnowVillige.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SnowVillige.Designer.cs">
+      <DependentUpon>SnowVillige.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FallenRuins.resx">
       <DependentUpon>FallenRuins.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SnowVillige.resx">
+      <DependentUpon>SnowVillige.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,6 +98,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lucid-origin_chunky_pixel_art_16-bit_RPG_style_large_visible_pixels_retro_game_background_dar-0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image May 29, 2026, 12_49_58 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_sheet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lucid-origin_chunky_pixel_art_16-bit_RPG_style_large_visible_pixels_retro_game_background_dar-01.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

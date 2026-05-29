@@ -67,7 +67,7 @@ namespace BeneathTheSurface
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Game created by: [Your Name]", "Credits");
+            MessageBox.Show("Game created by: Ademm93", "Credits");
         }
 
         private void label1_Click(object sender, EventArgs e) { }

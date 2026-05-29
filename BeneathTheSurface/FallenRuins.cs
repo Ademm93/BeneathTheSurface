@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BeneathTheSurface.Properties;
+using System;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
@@ -229,6 +230,11 @@ namespace BeneathTheSurface
                 g.DrawImage(frameToDraw, new Rectangle(playerPosition, playerSize));
                 frameToDraw.Dispose();
             }
+        }
+
+        private void FallenRuins_Load_1(object sender, EventArgs e)
+        {
+
         }
 
         private void FallenRuins_KeyDown(object sender, KeyEventArgs e)
