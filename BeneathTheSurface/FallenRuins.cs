@@ -115,7 +115,7 @@ namespace BeneathTheSurface
 
             gameTimer = new Timer();
 
-            gameTimer.Interval = 16;
+            gameTimer.Interval = 10;
 
             gameTimer.Tick += GameTimer_Tick;
 
@@ -411,7 +411,7 @@ namespace BeneathTheSurface
 
                 }
 
-                currentFrame = useFirstFrame ? frameIdle : frameWalk;
+                currentFrame = frameWalk;
 
             }
 
@@ -477,8 +477,7 @@ namespace BeneathTheSurface
 
 
 
-            if (e.KeyCode == Keys.W && !isJumping && !isCrouching)
-
+            if ((e.KeyCode == Keys.W || e.KeyCode == Keys.Space) && !isJumping && !isCrouching)
             {
 
                 isJumping = true;
@@ -489,7 +488,7 @@ namespace BeneathTheSurface
 
 
 
-            if (e.KeyCode == Keys.S) isCrouching = true;
+            if (e.KeyCode == Keys.S || e.KeyCode == Keys.LShiftKey) isCrouching = true;
 
         }
 
@@ -503,7 +502,7 @@ namespace BeneathTheSurface
 
             if (e.KeyCode == Keys.D) moveRight = false;
 
-            if (e.KeyCode == Keys.S) isCrouching = false;
+            if (e.KeyCode == Keys.S || e.KeyCode == Keys.LShiftKey  ) isCrouching = false;
 
         }
 
